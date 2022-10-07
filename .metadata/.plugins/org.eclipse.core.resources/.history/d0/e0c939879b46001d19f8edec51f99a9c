@@ -1,0 +1,41 @@
+package examen;
+import java.util.Scanner;
+public class CalculoDepreciacionActivos {
+	static  Scanner  Sc=new Scanner(System.in);
+	public static void main(String[] args) {
+		
+		bienvenido();
+      System.out.println("que metodo desea usar");
+		System.out.println("1.metodo linea recta");
+		System.out.println("2.metodo de la suma de digitos por anio");
+		System.out.println("3.metodo de las unidades producidas");
+		System.out.println("4.metodo de reduccion de saldo");
+		metodolinearecta();
+		double costodelactivo;
+		double valordeldesecho;
+		int vidautil;
+		
+
+	}
+	private static void bienvenido() {
+		System.out.println("bienvenido a la app de calculo de depreciacion");
+		
+		
+	}
+	
+   private static void metodolinearecta(double costodelactivo,double valordeldesecho , int vidautil) {
+	   double resultado (costodelactivo-valordeldesecho)/(vidautil));
+		System.out.println("El resultado es = " + resultado);
+	   
+   }
+
+
+
+}
+
+	
+		
+		
+	
+
+

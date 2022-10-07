@@ -1,0 +1,11 @@
+package examen;
+
+import java.util.Scanner;
+public class CalculoDepreciaciondeActivos {
+
+	public static void main(String[] args) {
+	
+
+	}
+
+}

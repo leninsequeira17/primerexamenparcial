@@ -1,0 +1,23 @@
+package examen;
+import java.util.Scanner;
+public class CalculoDepreciacionActivos {
+	public static void main(String[] args) {
+		Scanner  Sc=new Scanner(System.in);
+		
+
+		System.out.println("cual metodo desea realizar:");
+		System.out.println("1.Metodo de linea recta");
+		System.out.println("2.Metodo de la suma de Digitos por año");
+		System.out.println("3.Metodo de las unidades producidas");
+		System.out.println("4.metodo de la reduccion de saldos");
+		
+
+		
+	}
+}
+	
+		
+		
+	
+
+
